@@ -1,0 +1,152 @@
+body.light {
+  background-color: #DBDBDB !important;
+}
+
+body.light .banner {
+	position: relative;
+	width: 100%;
+	box-shadow: 6px 0px 21px 1px #DBDBDB;
+	min-height: 100vh;
+	padding: 100px;
+  color: #111111 !important;
+	background: var(--background);
+	display: flex;
+	align-items: center;
+	transition: 0.8s;
+	z-index: 8;
+}
+
+body.light .banner:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+  color: #111111 !important;
+	height: 300px;
+	background: linear-gradient(to top, #DBDBDB, transparent);
+}
+
+body.light .deneme {
+  color: #111111 !important;
+}
+
+body.light .navbar-nav .nav-link {
+  color: #111111 !important;
+}
+
+body.light .dropdown-item {
+  color: #111111 !important;
+}
+
+body.light .dropdown-item:hover {
+  background-color: #111111 !important;
+  color: #DBDBDB !important;
+}
+
+body.light .navbar .nav-item .dropdown-menu {
+  display: none;
+  color: #111111;
+  margin-top: 0;
+}
+
+body.light .navbar .nav-item:hover .dropdown-menu {
+  display: block;
+  color: #111111;
+}
+
+body.light .content h2 {
+  color: #111111;
+}
+
+body.light .content p {
+  color: #111111;
+}
+
+body.light .content a {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+body.light .services {
+  background: #DBDBDB;
+  background-size: cover;
+}
+
+body.light .services h1 {
+  color: #111111;
+}
+
+body.light .service h2 {
+  color: #111111;
+}
+
+body.light .service p {
+  color: #111111;
+}
+
+body.light .discord {
+  background-color: #DBDBDB !important; 
+}
+
+body.light .discord h1 {
+  color: #111111 !important; 
+}
+
+body.light .discord a {
+  color: #111111 !important; 
+  border: 2px solid #111111;
+}
+
+body.light .discord a:hover {
+  background-color: #111111 !important; 
+  color: #DBDBDB !important; 
+  border: 2px solid #111111;
+}
+
+body.light .footer {
+  background-color: #DBDBDB;
+  color: #111111;
+}
+
+body.light .footer h2 {
+  color: #111111;
+}
+
+body.light .footer .footerLinks a {
+  color: #111111;
+  opacity: 1;
+}
+
+body.light .credits {
+  background-color: #DBDBDB;
+  color: #111111;
+}
+
+body.light .fa-moon {
+  color: #DBDBDB;
+}
+
+body.light .fa-sun {
+  color: #DBDBDB;
+}
+
+body.light .button1 {
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #DBDBDB;
+  border-radius: 0.2em;
+  text-decoration: none;
+  font-weight: 300;
+  color: #DBDBDB;
+  text-align: center;
+  transition: all 300ms;
+}
+
+body.light .button1:hover {
+  color: #111111;
+  background-color: #DBDBDB;
+}
+
+body.light .label {
+  color: #111111;
+}
